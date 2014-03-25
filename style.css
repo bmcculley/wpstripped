@@ -1,6 +1,6 @@
 /*
 Theme Name: WP Stripped Theme
-Theme URI: https://github.com/bmcculley/
+Theme URI: https://github.com/tempvault/wpstripped
 Author: bmcculley (Blake)
 Author URI: http://bmcculley.github.io
 Description: A semantic, HTML5, canvas for CSS artists and an ultra-minimal set of super-clean templates for your own WordPress theme development.
@@ -372,7 +372,8 @@ img.size-large,
 img.size-medium,
 .attachment img,
 .widget-area img,
-.wp-caption {
+.wp-caption,
+img {
 	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
 	height: auto; /* Override height to match resized width for correct aspect ratio. */
 }

@@ -9,7 +9,7 @@
 
 	<footer id="colophon" role="contentinfo">
 		<div id="theme-credit">
-			WordPress stripped theme by <a href="http://bmcculley.github.io" title="B.McCulley">B. McCulley</a>
+			WordPress stripped theme by <a href="<?php echo esc_url('http://bmcculley.github.io'); ?>" title="B.McCulley">B. McCulley</a>
 		</div><!-- #theme-credit -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
